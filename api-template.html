@@ -1,0 +1,339 @@
+<div id="top"> </div>
+
+<hr />
+
+<p class="updated">
+  Service version: <br />
+  Last edit: 2020.01.05
+</p>
+
+<h3 class="onthispage">On this page</h3>
+
+<div class="container contents">
+  <ul class="onthispage">
+    <li><a href="#purpose">Purpose</a></li>
+    <li><a href="#run-this-endpoint">Run this endpoint</a></li>
+  </ul>
+  <ul class="onthispage">
+    <li><a href="#request-data">Request data</a></li>
+    <li><a href="#response-data">Response data</a></li>
+  </ul>
+</div>
+
+<h2 id="purpose">Purpose</h2>
+
+<section class="api">
+  <p>The TomTom ------- API endpoint ...</p>
+  <p>Add more information here.</p>
+</section>
+
+<h2 id="run-this-endpoint">Run this endpoint</h2>
+
+<section class="api">
+  <p>You can easily run this and other endpoints.</p>
+
+  <ol>
+    <li>Go to the TomTom <a href="https://developer.tomtom.com/content/search-api-explorer#/operations/Search" target="_blank">API Explorer</a> page.</li>
+    <li>
+      Click an endpoint.
+      <ol>
+        <li>Click <span class="outline">Try it out</span>.</li>
+        <li>Enter/select all required parameter values and any optional parameter values.</li>
+        <li>At the bottom of the form, click <span class="outline">Execute</span>.</li>
+      </ol>
+    </li>
+    <li>Review the Response.</li>
+  </ol>
+</section>
+
+<h2 id="request-data">Request data</h2>
+
+<section class="api">
+
+  <h3>HTTPS Method: <span class="get">GET</span></h3>
+  <h3>HTTPS Method: <span class="post">POST</span></h3>
+  <h3>HTTPS Method: <span class="put">PUT</span></h3>
+  <h3>HTTPS Method: <span class="delete">DELETE</span></h3>
+
+  <h3>URL format</h3>
+
+  <pre><code>https://<baseURL>/search/<versionNumber>?key=<Your_API_Key>
+&optional param name=<value>
+&optional param name=<value>
+&optional param name=<value>
+&optional param name=<value></code></pre>
+
+  <h3>curl format</h3>
+  <pre><code>curl 'https://<baseURL>/search/<versionNumber>?key=<Your_API_Key>
+&optional param name=<value>
+&optional param name=<value>
+&optional param name=<value>
+&optional param name=<value>'</code></pre>
+
+  <h3>Request parameters</h3>
+
+  <p>The following table describes the parameters that can be used in a Request.</p>
+
+  <table>
+    <thead>
+      <tr class="head">
+        <th scope="col">Parameter</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          <code>baseURL</code><br />
+          <span class="datatype">string</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          The base URL for calling the API.<br />
+          <b>Value:</b> <code>api.tomtom.com</code>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>versionNumber</code><br />
+          <span class="datatype">string</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          The service version.<br />
+          <b>Value:</b> The current value is <code>x</code>.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>key</code><br />
+          <span class="datatype">string</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          An API Key valid for the requested service.<br />
+          <b>Value:</b> Your valid TomTom <code>API Key</code>.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>A required parameter's name goes here.</code><br />
+          <span class="datatype">Its datatype goes here: string or integer or boolean, etc.</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          A description of the required parameter goes here.<br />
+          <b>Value:</b> <code>The parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>A required parameter's name goes here.</code><br />
+          <span class="datatype">Its datatype goes here: string or integer or boolean, etc.</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          A description of the required parameter goes here.<br />
+          <b>Value:</b> <code>The parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>A required parameter's name goes here.</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          <b>Required</b><br />
+          A description of the required parameter goes here.<br />
+          <b>Value:</b> <code>The required parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+
+      <tr class="head">
+        <th scope="col">Parameter</th>
+        <th scope="col">Description</th>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>Optional parameter name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Optional<br />
+          A description of the optional parameter goes here.<br />
+          <b>Value:</b> <code>The optional parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>Optional parameter name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Optional<br />
+          A description of the optional parameter goes here.<br />
+          <b>Value:</b> <code>The optional parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>Optional parameter name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Optional<br />
+          A description of the optional parameter goes here.<br />
+          <b>Value:</b> <code>The optional parameter's value(s) goes here.</code><br />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<p class="top"><a class="return" href="#top">▲ Return to top</a></p>
+
+<h2 id="response-data">Response data</h2>
+
+<section class="api">
+  <h3>Response body</h3>
+
+  <p>When requesting JSON output (via the "ext" Request parameter), the Response has the following keyname/value pair structure:</p>
+
+  <pre class="prettyprint linenums"><code>{
+  "---": {
+    "---": "---",
+    "---": "---",
+    "---": "---",
+    "---": "---",
+    "---": "---",
+    "---": "---",
+    "---": "---",
+    "---": "---"
+  }</code></pre>
+
+  <p class="top"><a class="return" href="#top">▲ Return to top</a></p>
+
+  <h3>Response fields</h3>
+
+  <p>The following table describes all of the fields that can appear in a Response.</p>
+
+  <table>
+    <thead>
+      <tr class="head">
+        <th scope="col">Field</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">
+          <code>field name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Description of the field goes here...
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>field name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Description of the field goes here...
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">
+          <code>field name goes here</code><br />
+          <span class="datatype">Its datatype goes here: string, or integer, or boolean, etc.</span>
+        </th>
+        <td>
+          Description of the field goes here...
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<p class="top"><a class="return" href="#top">▲ Return to top</a></p>
+
+
+<h3>HTTP Response codes</h3>
+<section class="api">
+
+  <p>The following data table contains Response codes signifying successful and failed Requests to an API server.</p>
+  <table>
+    <thead>
+      <tr class="head">
+        <th>Code</th>
+        <th>Meaning & possible causes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+      <tr>
+        <th scope="row"><code>Response code number goes here.</code></th>
+        <td>Meaning & possible causes go here.</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<p class="top"><a class="return" href="#top">▲ Return to top</a></p>
+
+<h3>Response headers</h3>
+<section class="api">
+
+  <p>The following table contains Response headers sent back from an API server.</p>
+
+  <table>
+    <thead>
+      <tr class="head">
+        <th>Header</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><code><a href="https://external-link-to-the-header-page-goes-here" target="_blank">Response header linked name goes here.</a></code></th>
+        <td>
+          Description of the Response header goes here.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row"><code><a href="https://external-link-to-the-header-page-goes-here" target="_blank">Response header linked name goes here.</a></code></th>
+        <td>
+          Description of the Response header goes here.
+        </td>
+      </tr>
+      <tr>
+        <th scope="row"><code><a href="https://external-link-to-the-header-page-goes-here" target="_blank">Response header linked name goes here.</a></code></th>
+        <td>
+          Description of the Response header goes here.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<p class="top"><a class="return" href="#top">▲ Return to top</a></p>
